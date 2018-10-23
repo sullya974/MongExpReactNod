@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 
 //This our MongoDb database
-const dbRoute = "mongodb://XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const dbRoute = "mongodb://sully:batignolles1@ds059207.mlab.com:59207/mymongodb";
 
 //Connects backend code to database
 mongoose.connect(
